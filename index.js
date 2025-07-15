@@ -1,6 +1,7 @@
 function solve(ans,curr, i ,arr){
     if (i === arr.length){
         ans.push ([...curr]);
+        return;
     }
  
     curr.push(arr [i]);
